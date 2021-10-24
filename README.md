@@ -1,2 +1,2 @@
-# mega-linter.github.io
+# megalinter.github.io
 Mega-Linter public HTML Documentation
