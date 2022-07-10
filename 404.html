@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting</title>
+  <noscript>
+    <meta http-equiv="refresh" content="1; url=https://oxsecurity.github.io/megalinter/" />
+  </noscript>
+  <script>
+    window.onload = function () {
+      const redirectLocation = window.location.href.replace(
+        "megalinter.github.io",
+        "oxsecurity.github.io/megalinter"
+      );
+      document.getElementById("body").innerHTML = "Redirecting to " + redirectLocation + " ...";
+      window.location.href = redirectLocation;
+    }
+  </script>
+</head>
+
+<body id="body" style="text-align: center">
+  Redirecting to new location <a href="https://oxsecurity.github.io/megalinter/">latest/</a>...
+</body>
+
+</html>
